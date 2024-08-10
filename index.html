@@ -1,22 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Avaliação Ebac front-end</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
-    <h1>Teste de software</h1>
-    <ul>
-        <li>python</li>
-        <li>java</li>
-        <li>php</li>
-        <li>golang</li>
-        <li>c</li>
-    </ul>
+
+    <div id="principal" class="container">
+        <h1>Selecione </h1>
+
+        <select name="helo-wold" id="select">
+            <option id="normal" value="normal">Normal</option>
+            <option value="maiusculo">Maiúsculo</option>
+            <option value="minusculo">Minúsculo</option>
+            <option value="verde">Verde</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="roxo">Roxo</option>
+            <option value="invertido">Invertido</option>
+            <option value="traduzido">Traduzido</option>
+            <option value="japones">Japonês</option>
+            <option value="alerta">Alerta</option>
+            <option value="emoji">Emoji</option>
+        </select>
+        <br>
+        <input type="button" value="Verifica" id="buton" onclick="verifica()">
+        <div id="resultado"></div>
+    </div>
+
+    <script src="src/index.js"></script>
 </body>
 
 </html>
