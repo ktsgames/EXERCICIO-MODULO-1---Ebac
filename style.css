@@ -1,3 +1,13 @@
 body {
-    background-color: rgb(134, 104, 104);
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+header {
+    text-align: center;
+    padding-bottom:  20px;
+    margin-bottom: 20px;
 }
